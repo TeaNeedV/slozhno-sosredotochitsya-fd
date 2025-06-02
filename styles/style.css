@@ -2,4 +2,37 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: url('/images/cover-image-dark.png');
+  background-attachment: fixed;
+}
+
+.header {
+  min-block-size: 668px;
+  block-size: 100vh;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  position: relative;
+  align-items: center;
+  
+}
+
+.header__theme-menu-button {
+  font-size: 18px;
+  height: 23px;
+  font-weight: 400;
+  background-color: transparent;
+  outline: 1px solid transparent;
+  color: #FF0070;
+}
+
+.header__theme-menu {
+  width: 70px;
+  height: 98px;
+  padding-top: 75px;
+  padding-left: 295px;
+}
+
+.header__theme-menu-list {
+  display: grid;
+  grid-template-rows: ;
 }
