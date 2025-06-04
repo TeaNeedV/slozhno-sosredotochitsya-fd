@@ -52,8 +52,8 @@
 
 .header__theme-menu {
   display: grid;
-  grid-template-columns: 1fr; /* Один столбец */
-  grid-template-rows: repeat(3, auto); /* Три строки, автоматически подстраивающиеся под контент */
+  grid-template-columns: 1fr; 
+  grid-template-rows: repeat(3, auto); 
   justify-self: end; /* Выравнивание по правому краю */
   margin-top: 51px;
   margin-right: 10px;
