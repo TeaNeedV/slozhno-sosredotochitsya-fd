@@ -173,7 +173,7 @@
   padding-top: 11px;
 }
 
-.content-text { /*поменять название оглавления параграфа */
+.content-text { 
   color: var(--text-color);
   background-color: var(--accent-color);
   font-family: var(--text-font-family);
@@ -413,7 +413,7 @@
     margin-right: -9px;
   }
   .gallery {
-    padding-top: 40px;
+    padding-top: 39px;
   }
   .content__gallery {
     display: grid;
@@ -447,7 +447,7 @@
     bottom: 31 px;
   }
   .footer::after {
-    bottom: 0;
+    bottom: 3px;
   }
   .footer::before {
     top: 40px;
@@ -497,6 +497,7 @@
     justify-content: center;
     padding-top: 27px;
     align-items: end;
+    margin-right: -1px;
   }
   .header__content {
     width: 494px;
@@ -566,9 +567,9 @@
     padding-top: 9px;
   }
   .footer::before {
-    top: 36px;
+    top: 40px;
   }
-  .footer::after {
-    bottom: 3px;
+  .gallery {
+    padding-top: 36px;
   }
 }
