@@ -136,8 +136,8 @@
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
   position: absolute;
-  top: 10px; /* Положение сверху */
-  right: 10px; /* Положение справа */
+  top: 10px;
+  right: 10px;
 }
 
 .decorated-zone::after {
