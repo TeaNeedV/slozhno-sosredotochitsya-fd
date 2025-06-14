@@ -16,7 +16,6 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
   
   .main-text {
     color: var(--main-heder-text-color);
@@ -41,6 +40,6 @@
   .content__link {
     color: var(--text-color);
     text-shadow: 2px 2px var(--accent-color);
-    text-decoration: none; 
+    text-decoration: none;
   }
 }
