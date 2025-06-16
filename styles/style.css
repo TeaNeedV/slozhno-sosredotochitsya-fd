@@ -4,6 +4,7 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--bg-color);
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100%;
@@ -26,7 +27,7 @@
   height: 23px;
   font-weight: 400;
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--color-button);
   border: transparent;
   text-transform: lowercase;
   font-family: var(--text-font-family);
@@ -67,14 +68,11 @@
   color: var(--accent-color);
   position: absolute;
   padding-top: 13px;
-  padding-right: 10px;
-  right: 37px;
+  right: -1px;
   line-height: 20px;
   display: grid;
   gap: 8px;
   grid-template-columns: 1fr 1fr;
-  width: 33px;
-  height: 26px;
 }
 
 .rec::after {
@@ -189,7 +187,7 @@
 
 .gallery {
   display: grid;
-  margin-top: 10px;
+  margin-top: 17px;
   padding: 10px;
   object-fit: cover;
 }
@@ -239,12 +237,11 @@
 }
 
 .text-what {
- 
   margin-bottom: 10px;
 }
 
 .text-paragraph-how {
-  padding-bottom: 16px;
+  padding-bottom: 14px;
 }
 
 .text-how {
@@ -273,10 +270,10 @@
 
 .content__link:focus-visible {
   border: 1px solid var(--main-text-color);
+  
 }
 
 .content__link:hover {
-  
   border-bottom: 1px solid;
 }
 
@@ -364,13 +361,13 @@
     padding-top: 19px;
   }
   .text-how {
-    margin-top: 5px;
+    margin-top: 7px;
     font-weight: 400;
     grid-column: 2;
   }
   .text-paragraph-how {
     grid-column: 2;
-    padding-bottom: 17px;
+    padding-bottom: 14px;
   }
   .content-why {
     display: grid;
@@ -391,16 +388,16 @@
   }
   .text-how-question {
     margin-right: -9px;
-    margin-top: -9px;
+    margin-top: -6px;
   }
   .gallery {
-    padding-top: 44px;
+    padding-top: 39px;
   }
   .content__gallery {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     grid-template-rows: 24% 30% 41% ;
-    margin-top: 5px;
+    margin-top: 12px;
   }
   .content__gallery img {
     object-fit: cover;
@@ -469,19 +466,20 @@
     width: 494px;
   }
   .text-why {
-    margin-bottom: 8px;
+    margin-bottom: 9px;
   }
   .content-what {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
   }
   .what {
     display: grid;
-    padding-top: 33px;
+    padding-top: 39px;
   }
   .text-what {
-    margin-top: 0;
+    margin-top: -2px;
   }
   .text-how {
     margin-bottom: 7px;
@@ -489,10 +487,10 @@
   .content-how {
     gap: 1px;
     margin-bottom: 5px;
-    padding-top: 72px;
+    padding-top: 67px;
   }
   .how {
-    padding-top: 2px;
+    padding-top: 6px;
   }
   .text-paragraph-how {
     padding-top: 1px;
@@ -504,8 +502,8 @@
   .content__gallery {
     grid-template-columns: repeat(3, 1fr);
     gap: 23px;
-    padding-bottom: 24px;
-    padding-top: 8px;
+    padding-bottom: 21px;
+    padding-top: 5px;
   }
   .footer {
     padding: 0;
@@ -537,6 +535,9 @@
     top: 42px;
   }
   .gallery {
-    padding-top: 41px;
+    padding-top: 35px;
+  }
+  .text-paragraph {
+    padding-bottom: 15px;
   }
 }
