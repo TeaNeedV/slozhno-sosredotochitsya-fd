@@ -58,7 +58,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
-  justify-self: end; 
+  justify-self: end;
   margin-top: 62px;
   margin-right: 2px;
 }
