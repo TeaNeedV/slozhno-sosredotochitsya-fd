@@ -85,6 +85,7 @@
   display: inline-block;
   background-color: var(--accent-color);
   margin-top: 5px;
+  margin-left: 5px;
 }
 
 .header__content {
