@@ -309,7 +309,6 @@
   .text-header {
     padding-bottom: 40px;
   }
- 
   .why {
     grid-column: 2/4;
   }
@@ -317,8 +316,6 @@
   display: grid;
   grid-template-columns: min-content;
   }
-
- 
   .how.content-text {
     display: grid;
   }
@@ -341,11 +338,9 @@
     display: grid;
     grid-template-columns: 32% min-content;
     padding-top: 15px;
-    
   }
   .content-what {
     grid-template-columns: auto;
-    
     padding-top: 33px;
   }
   .content-how {
@@ -387,12 +382,10 @@
     padding-left: 175px;
     padding-top: 11px;
   }
- 
   .footer {
     min-height: 1024px;
     margin-top: 57px;
   }
-  
   .decorated-zone::before {
     bottom: 28px;
   }
@@ -465,7 +458,6 @@
     margin-top: 30px;
     grid-template-rows: 4fr 1fr;
     grid-template-columns: 2fr;
-   
     min-height: 768px;
   }
   .footer .main-text {
@@ -479,7 +471,6 @@
   .why {
     padding-top: 9px;
   }
-  
   .gallery {
     padding-top: 38px;
     padding-right: 10px;
