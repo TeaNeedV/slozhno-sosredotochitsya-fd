@@ -3,7 +3,11 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+ :root.theme-auto {
+    .rec {
+      display: block;
+   } 
+   }
   
 :root.theme-dark {
     --bg-color: url('../images/cover-image-dark.png');
@@ -16,7 +20,10 @@
     --color-border: #FF007066;
     --color-button: #FF0070;
    --accent-color-decorated-zone: #FF0070;
-}
-.rec {
+   --question-text: #ff0070; 
+   .rec {
     display: block;
   }
+  }
+  
+

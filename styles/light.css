@@ -18,10 +18,13 @@
     --accent-color-decorated-zone: #353430;
     --question-text: #353430;
     --main-text-color: #353430;
-    .rec {
-    display: none;
-    }
+    --background-color: #fff1f7;
   }
+    .rec {
+      display: none;
+    }
+    
+   
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -33,8 +36,15 @@
   --color-border: #353430;
   --accent-color-decorated-zone: #353430;
   --main-text-color: #353430;
-  }
+  --question-text: #353430;
+  --background-color: #fff1f7;
   .rec {
-    display: none;
+      display: none;
+    }
   }
+  :root.theme-auto {
+    .rec {
+      display: none;
+   } 
+   }
 }
