@@ -192,7 +192,6 @@
 .gallery {
   display: grid;
   margin-top: 11px;
-  padding: 10px;
   object-fit: cover;
 }
 
@@ -229,9 +228,10 @@
   display: grid;
   gap: 8px;
   padding-top: 2px;
+  padding-bottom: 26px;
 }
 
-.content-why {
+.content-section {
   display: grid;
   gap: 25px;
   padding-bottom: 20px;
@@ -272,11 +272,7 @@
   width: 100%;
 }
 
-.content-how {
-  display: grid;
-  padding-top: 27px;
-  gap: 25px;
-}
+
 
 @media(min-width: 768px) {
   .page {
@@ -311,10 +307,11 @@
   }
   .why {
     grid-column: 2/4;
+    padding-left: 13px;
   }
   .text-what {
-  display: grid;
-  grid-template-columns: min-content;
+    display: grid;
+    grid-template-columns: min-content;
   }
   .how.content-text {
     display: grid;
@@ -334,20 +331,15 @@
     grid-column: 2;
     padding-bottom: 14px;
   }
-  .content-why {
-    display: grid;
-    grid-template-columns: 32% min-content;
-    padding-top: 15px;
-  }
   .content-what {
     grid-template-columns: auto;
     padding-top: 33px;
   }
-  .content-how {
+  .content-section {
     display: grid;
     grid-template-columns: 32% min-content;
-    padding-top: 31px;
-    gap: 7px;
+    padding-top: 15px;
+    gap: 8px;
   }
   .text-how-question {
     padding-top: 22px;
@@ -390,7 +382,7 @@
     bottom: 28px;
   }
   .content-text {
-    padding-top: 2px;
+    padding-top: 1px;
   }
 }
 
@@ -425,6 +417,7 @@
   .content-what {
     display: grid;
     padding-top: 35px;
+    padding-bottom: 42px;
   }
   .what {
     display: grid;
@@ -433,14 +426,15 @@
     padding-right: 2px;
   }
   .text-how {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
   }
-  .content-how {
+  .content-section {
     margin-bottom: 5px;
-    padding-top: 57px;
+    padding-top: 9px;
+    gap: 6px;
   }
   .how {
-    padding-top: 6px;
+    padding-top: 12px;
   }
   .text-paragraph-how {
     padding-top: 1px;
@@ -461,19 +455,14 @@
     min-height: 768px;
   }
   .footer .main-text {
-    padding-top: 151px;
+    padding-top: 158px;
     padding-left: 16px;
-  }
-  .content-why {
-    padding-top: 9px;
-    gap: 21px;
   }
   .why {
     padding-top: 9px;
   }
   .gallery {
-    padding-top: 38px;
-    padding-right: 10px;
+    padding-top: 30px;
   }
   .text-paragraph {
     padding-bottom: 15px;

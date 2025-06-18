@@ -10,6 +10,7 @@
    }
   
 :root.theme-dark {
+    --background-color: #000028;
     --bg-color: url('../images/cover-image-dark.png');
     --accent-color: #ff0070;
     --text-size: 18px;
@@ -19,11 +20,12 @@
     --main-text-color: #F1B2CE;
     --color-border: #FF007066;
     --color-button: #FF0070;
-   --accent-color-decorated-zone: #FF0070;
-   --question-text: #ff0070; 
-   .rec {
+    --accent-color-decorated-zone: #FF0070;
+    --question-text: #ff0070; 
+   
+    
+    .rec {
     display: block;
   }
-  }
-  
+}
 

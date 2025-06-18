@@ -4,6 +4,7 @@
 */
 :root {
   --bg-color: url('../images/cover-image-dark.png');
+  --background-color: #000028;
   --accent-color:  #ff0070;
   --text-size: 18px;
   --text-font-family: 'IBM Plex mono', monospace;
@@ -14,6 +15,6 @@
   --color-button: #FF0070;
   --accent-color-decorated-zone: #FF0070;
   --question-text: #FF0070;
-  --background-color: #000028;
+  
 }
 
