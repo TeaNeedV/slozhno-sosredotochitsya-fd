@@ -6,7 +6,7 @@
  :root.theme-auto {
     .rec {
       display: block;
-   } 
+    }
    }
   
 :root.theme-dark {
@@ -21,10 +21,8 @@
     --color-border: #FF007066;
     --color-button: #FF0070;
     --accent-color-decorated-zone: #FF0070;
-    --question-text: #ff0070; 
-   
-    
-    .rec {
+    --question-text: #ff0070;
+   .rec {
     display: block;
   }
 }

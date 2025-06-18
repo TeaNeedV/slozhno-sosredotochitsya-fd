@@ -120,7 +120,7 @@
 }
 
 .decorated-zone {
-  position: relative; 
+  position: relative;
 }
 
 .header__theme-menu-list {
@@ -217,7 +217,7 @@
   text-shadow: 2px 2px 0 var(--accent-color);
   display: inline-grid;
   justify-content: end;
-  line-height: 78px; 
+  line-height: 78px;
 }
 
 .text-what {
